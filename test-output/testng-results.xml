@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-17T14:47:30 IST" name="Default suite" finished-at="2023-05-17T14:48:13 IST" duration-ms="43053">
+    <groups>
+    </groups>
+    <test started-at="2023-05-17T14:47:30 IST" name="Default test" finished-at="2023-05-17T14:48:13 IST" duration-ms="43053">
+      <class name="testScripts.TestCases">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:47:30 IST" name="Setup" finished-at="2023-05-17T14:47:33 IST" duration-ms="2707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="CartFunctionality(java.lang.String,java.lang.String)[pri:1, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:47:33 IST" name="CartFunctionality" data-provider="data-provider" finished-at="2023-05-17T14:47:49 IST" duration-ms="16000" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CartFunctionality -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:47:49 IST" name="afterMethod" finished-at="2023-05-17T14:47:50 IST" duration-ms="1163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:47:50 IST" name="Setup" finished-at="2023-05-17T14:47:52 IST" duration-ms="1785" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="CompleteCheckOutFlow(java.lang.String,java.lang.String,java.util.List)[pri:2, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:47:52 IST" name="CompleteCheckOutFlow" data-provider="data-provider" finished-at="2023-05-17T14:47:59 IST" duration-ms="6854" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[[Sauce Labs Backpack, Sauce Labs Bolt T-Shirt, Sauce Labs Bike Light]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CompleteCheckOutFlow -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:47:59 IST" name="afterMethod" finished-at="2023-05-17T14:48:00 IST" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:00 IST" name="Setup" finished-at="2023-05-17T14:48:02 IST" duration-ms="1856" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginTest(java.lang.String,java.lang.String)[pri:3, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:02 IST" name="LoginTest" data-provider="data-provider" finished-at="2023-05-17T14:48:02 IST" duration-ms="508" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginTest -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:02 IST" name="afterMethod" finished-at="2023-05-17T14:48:04 IST" duration-ms="1164" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:04 IST" name="Setup" finished-at="2023-05-17T14:48:05 IST" duration-ms="1682" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithInvalidUser(java.lang.String)[pri:3, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:05 IST" name="LoginWithInvalidUser" data-provider="data-provider" finished-at="2023-05-17T14:48:06 IST" duration-ms="359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epic sadface: Username and password do not match any user in this service]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithInvalidUser -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:06 IST" name="afterMethod" finished-at="2023-05-17T14:48:07 IST" duration-ms="1144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:07 IST" name="Setup" finished-at="2023-05-17T14:48:09 IST" duration-ms="1985" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithMissingUsername(java.lang.String)[pri:4, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:09 IST" name="LoginWithMissingUsername" data-provider="data-provider" finished-at="2023-05-17T14:48:09 IST" duration-ms="266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epic sadface: Username is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithMissingUsername -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:09 IST" name="afterMethod" finished-at="2023-05-17T14:48:10 IST" duration-ms="1110" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="Setup()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:10 IST" name="Setup" finished-at="2023-05-17T14:48:12 IST" duration-ms="1811" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="LoginWithMissingPassword(java.lang.String)[pri:5, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:12 IST" name="LoginWithMissingPassword" data-provider="data-provider" finished-at="2023-05-17T14:48:12 IST" duration-ms="261" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Epic sadface: Password is required]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LoginWithMissingPassword -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:testScripts.TestCases@16610890]" started-at="2023-05-17T14:48:12 IST" name="afterMethod" finished-at="2023-05-17T14:48:13 IST" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- testScripts.TestCases -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
